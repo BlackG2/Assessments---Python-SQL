@@ -1,0 +1,47 @@
+# SQL THEORY QUESTIONS
+
+1 Name three types of join used in SQL and describe briefly how it works ?
+# INNER JOIN - is a join that extracts data from 2 tables, table A and table B, to only return records or rows with matching values.
+# OUTER JOIN - if you use a SQL OUTER JOIN, it will extarct data from two tables and not only retrieve matching rows but also obtain the rows that are not matched.
+# CROSS JOIN - The cartesian join known as a cross join refers to the product of the two tables.
+			   No conditions are required for this join to connect two tables.
+			   Each row on the left table will be associated to each row on the right table since this join produces records or rows that are the product of record numbers from both tables.
+
+2 What is the difference between a NULL value, a 0 value and a blank value in SQL?
+# Any value that is "unavailable, unassigned, unknown, or not applicable" is referred to as a NULL value.
+# Whereas a zero is a numerical value that has definite mathematical qualities that are exact.
+# A blank value is considered a character, and the string "blank" could alternatively be empty, depending on the circumstances.
+
+3 What is the difference between HAVING and WHERE?
+# The WHERE Clause is used to filter the records from the table when merging multiple tables. Only the records that meet the criteria stated in the WHERE clause will be extracted. It can be used with statements that SELECT, UPDATE, or DELETE data.
+# The HAVING Clause is used to filter the records from the groups according to the specified criterion. The groups that meet the requirement will be included in the outcome. Only the SELECT statement and the HAVING Clause are compatible.
+
+4 How do you sort data in SQL
+# You can sort any dataset in either ascending or descending order by using an ORDER BY clause.
+
+5 Whats the difference between a table, a view and a stored procedure
+# Tables are fundamental data storage items in a database.
+# A view acts as a fictitious table. Multiple tables can be joined together in a view, which can then be used to present the data as though it were only coming from one table.
+# To perform a function, whether it be updating and insertion of data, returning of a single value or a set of data, a stored procedure uses parameters.
+
+6 What would you use to loop through records in a SQL statement?
+# By using T-SQL and cursors you can loop through records in a SQL statement.
+
+7 How would you define a decimal versus a whole number in SQL?
+# Higher numbers may be permitted by a DECIMAL if doing so makes it simpler to implement. This indicates that more digits than those given can really be stored in the database.
+# Because of its strictness, a WHOLE number is a data type that enforces the precise precision and scale that you have chosen.
+
+8 What is a stored procedure?
+# A stored procedure is a collection of SQL statements that have been given a name and are kept together in a relational database management system (RDBMS) so they may be used and shared by various programs.
+
+9 What is Auto Increment?
+# A table's Auto Increment field creates a distinct number for each new record that is added. Since it is simple for the developers to automatically produce a unique integer for each new entry, this is typically utilized for the main key column.
+
+10 How to select unique records from a table?
+# To only return distinct (different) data, use the SELECT DISTINCT command, because a column in a table frequently has many duplicate values, thus there are instances when you just want to list the unique values.
+
+11 What notation would you use to query elements stored in a JSON object?
+#  You must use squared brackets to query elements stored in a JSON object.
+
+12 Which operator is used in query for pattern matching?
+# To look for a specific pattern in a column, use the LIKE operator in a WHERE clause.
